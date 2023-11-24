@@ -1,14 +1,41 @@
 "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\ahmed Ibrahim\CLionProjects\cmake_learn" -B "C:\Users\ahmed Ibrahim\CLionProjects\cmake_learn\cmake-build-debug"
-DeHello OFF
-This is Examples of Unary Tests on Cmake :)
-Name is Defined
-X is Not Defined
-add_library is Command
-add_libraries is Not Command
-File is Found
-This is Examples of Binary Tests on Cmake :)
-Ahmed is Less Than X.sa
-Ahmed Ibrahim can Do :)
+aa
+aaa
+aaaa
+aaaaa
+aaaaaa
+aaaaaaa
+X = 10
+X = 15
+X = 20
+X = 25
+X = 30
+X = 35
+X = 40
+X = 45
+X = 50
+X = 55
+X = 60
+X = 65
+X = 70
+X = 75
+X = 80
+X = 85
+X = 90
+X = 95
+X = 100
+for Each in multiple List
+X = 0
+X = 1
+X = 2
+X = 3
+X = 10
+X = 11
+X = 12
+X = 13
+X = 14
+X = 15
+X = 16
 -- Configuring done (0.1s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/ahmed Ibrahim/CLionProjects/cmake_learn/cmake-build-debug
