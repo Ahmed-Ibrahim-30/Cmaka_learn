@@ -1,0 +1,113 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "rectangles",
+					"jsonFile" : "directory-rectangles-Debug-638be6dd68650fa8de58.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "rectangles",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "print",
+					"jsonFile" : "directory-print-Debug-ba9f264723a6f30084d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "print",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "cmake_learn",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cmake_learn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmake_learn-Debug-4518485dbeea4e466abf.json",
+					"name" : "cmake_learn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "print_lib::@63c66f20a660d23f3c0c",
+					"jsonFile" : "target-print_lib-Debug-caf58aea15490feff50f.json",
+					"name" : "print_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rect_lib::@0ab9804efa87490493a1",
+					"jsonFile" : "target-rect_lib-Debug-0e5e50f04036ca299bc4.json",
+					"name" : "rect_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ahmed Ibrahim/CLionProjects/cmake_learn/cmake-build-debug",
+		"source" : "C:/Users/ahmed Ibrahim/CLionProjects/cmake_learn"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

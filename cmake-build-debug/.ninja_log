@@ -1,0 +1,16 @@
+# ninja log v5
+8	114	7223888392040708	CMakeFiles/rect.dir/rectangle.cpp.obj	2960399d3e465ee4
+5	756	7224005253486360	CMakeFiles/cmake_learn.dir/main.cpp.obj	73191db212dc25f7
+9	75	7223902902376225	CMakeFiles/print.dir/print/print.cpp.obj	4ccbef88eb222568
+89	188	7223902903501094	librect.a	b9c5debdce6293b7
+757	997	7224005255831546	cmake_learn.exe	5410b613c82bb464
+1	195	7225638890045106	build.ninja	e19201ad6ddd7a3a
+4	92	7223888391812813	CMakeFiles/print.dir/print.cpp.obj	a380a94680815a4c
+76	185	7223902903471300	libprint.a	582f9365071b7dc
+4	88	7223902902487574	CMakeFiles/rect.dir/rectangles/rectangle.cpp.obj	5b22063dc16e51b6
+9	74	7223910580388797	print/CMakeFiles/print_lib.dir/print.cpp.obj	e8310ac802a6a7fa
+4	90	7223910580543844	rectangles/CMakeFiles/rect_lib.dir/rectangle.cpp.obj	1168188fbc8a0e32
+95	211	7223930249802052	print/libprint_lib.a	4df8d0481a89e6ae
+127	264	7223942930807404	rectangles/librect_lib.a	97e11bef96ef20f8
+12	94	7223930248627765	print/CMakeFiles/print_lib.dir/src/print.cpp.obj	e11c47c1f67ebd4e
+11	126	7223942929424278	rectangles/CMakeFiles/rect_lib.dir/src/rectangle.cpp.obj	8466cfbf726335bd

@@ -1,0 +1,9 @@
+C:/Users/ahmed Ibrahim/CLionProjects/cmake_learn/cmake-build-debug/CMakeFiles/cmake_learn.dir
+C:/Users/ahmed Ibrahim/CLionProjects/cmake_learn/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ahmed Ibrahim/CLionProjects/cmake_learn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ahmed Ibrahim/CLionProjects/cmake_learn/cmake-build-debug/rectangles/CMakeFiles/rect_lib.dir
+C:/Users/ahmed Ibrahim/CLionProjects/cmake_learn/cmake-build-debug/rectangles/CMakeFiles/edit_cache.dir
+C:/Users/ahmed Ibrahim/CLionProjects/cmake_learn/cmake-build-debug/rectangles/CMakeFiles/rebuild_cache.dir
+C:/Users/ahmed Ibrahim/CLionProjects/cmake_learn/cmake-build-debug/print/CMakeFiles/print_lib.dir
+C:/Users/ahmed Ibrahim/CLionProjects/cmake_learn/cmake-build-debug/print/CMakeFiles/edit_cache.dir
+C:/Users/ahmed Ibrahim/CLionProjects/cmake_learn/cmake-build-debug/print/CMakeFiles/rebuild_cache.dir
