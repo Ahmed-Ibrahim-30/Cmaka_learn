@@ -34,7 +34,6 @@ _test_function(Name)#1 - My Name is Name
 
 function(optionalFunctions Name1)
     message("Hello ${${Name1}}")
-
     message("ARGC = ${ARGC}")#Total Count of Argument (Optional+named)
     message("ARGV = ${ARGV}")# List of All Argument (Optional+named)
     message("ARGN = ${ARGN}")#List od Optional Argument
@@ -51,7 +50,19 @@ function(optionalFunctions Name1)
         message("Found Forth Argument")
     endif ()
 endfunction()
-
 optionalFunctions(Name Bob Ahmed)
+
+message("********* Scope OF Functions **************")
+set(test Ahmed)
+function(scope)
+    message("Before test = ${test}")#this is copy of parent variable test = Ahmed
+    set(test Ali)#Modify value of copy variable
+    set(test Fahmy PARENT_SCOPE)#Modify value of Parent variable
+    message("After test = ${test}")#this is copy of parent variable test = Ali
+endfunction()
+
+message("Before Function .. text = ${test}")# test = Ahmed
+scope()
+message("Before Function .. text = ${test}")# test = Fahmy
 #Hello Ahmed
 #Found Parameter
