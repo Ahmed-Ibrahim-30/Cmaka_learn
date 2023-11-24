@@ -12,21 +12,23 @@ add_subdirectory(print)
 
 add_executable(cmake_learn main.cpp)
 target_link_libraries(cmake_learn PUBLIC rect_lib print_lib)
-set(VAR a)
-while (NOT VAR STREQUAL "aaaaaaa")
-    set(VAR ${VAR}a)
-    message(${VAR})
-endwhile ()
+function(printHello Name Age)
+    message("My Name is ${Name} , My Age is ${Age}")
+endfunction()
+printHello(ahmed 22)
+set(Name Ahmed)
+set(Age 22)
+printHello(Name Age)#My Name is Name , My Age is Age
+printHello(${Name} ${Age})#My Name is Ahmed , My Age is 22
 
-foreach (X RANGE 10 100 5)
-    message("X = ${X}")
-endforeach ()
+set(Name "Ahmed")
+function(test_function Name)
+    message("1 - My ${Name} is ${${Name}}")
+endfunction()
 
-message("for Each in multiple List")
-set(VAR1 0;1;2;3)
-set(VAR2 10;11;12;13)
-set(VAR3 "14;15;16")
-foreach (X IN LISTS VAR1 VAR2 VAR3)
-    message("X = ${X}")
-endforeach ()
+function(test_function Name)
+    message("2 - My ${Name} is ${${Name}}")
+endfunction()
+test_function(Name)#2 - My Name is Name
+_test_function(Name)#1 - My Name is Name
 
