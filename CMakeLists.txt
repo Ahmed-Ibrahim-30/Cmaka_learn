@@ -32,3 +32,26 @@ endfunction()
 test_function(Name)#2 - My Name is Name
 _test_function(Name)#1 - My Name is Name
 
+function(optionalFunctions Name1)
+    message("Hello ${${Name1}}")
+
+    message("ARGC = ${ARGC}")#Total Count of Argument (Optional+named)
+    message("ARGV = ${ARGV}")# List of All Argument (Optional+named)
+    message("ARGN = ${ARGN}")#List od Optional Argument
+    if (DEFINED ARGV0) # First Argument
+        message("Found First Argument")
+    endif ()
+    if (DEFINED ARGV1) # Second Argument
+        message("Found Second Argument")
+    endif ()
+    if (DEFINED ARGV2) # Third Argument
+        message("Found Third Argument")
+    endif ()
+    if (DEFINED ARGV3) # Third Argument
+        message("Found Forth Argument")
+    endif ()
+endfunction()
+
+optionalFunctions(Name Bob Ahmed)
+#Hello Ahmed
+#Found Parameter
